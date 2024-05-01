@@ -6691,6 +6691,18 @@
     "astral-regex" "^1.0.0"
     "is-fullwidth-code-point" "^2.0.0"
 
+"smartswap-router-contracts@^1.0.1":
+  "integrity" "sha512-Y7etlNFRWQkDqfMzaFDRiQtqg9n1ofg/9pNPecqoZ0fxoLodMN+a9iiVMqYQJblyt5gVzPaWuELYWbyyv1RmtQ=="
+  "resolved" "https://registry.npmjs.org/smartswap-router-contracts/-/smartswap-router-contracts-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "dotenv" "^14.2.0"
+    "hardhat-watcher" "^2.1.1"
+    "smartswap-v2-core" "^1.0.1"
+    "smartswap-v3-core" "^1.0.0"
+    "smartswap-v3-periphery" "^1.0.1"
+
 "smartswap-sdk-core@^1.0.3":
   "integrity" "sha512-Dg7ErooXwozFnMJU5wSPp1pNHYt2cFFpZXVf4uLdBxDMb64rLMu/X8lffFhi2z/2scsXnuvPiXrT9DWVDMxEOA=="
   "resolved" "https://registry.npmjs.org/smartswap-sdk-core/-/smartswap-sdk-core-1.0.3.tgz"
@@ -6702,6 +6714,36 @@
     "jsbi" "^3.1.4"
     "tiny-invariant" "^1.1.0"
     "toformat" "^2.0.0"
+
+"smartswap-v2-core@^1.0.1":
+  "integrity" "sha512-oYUnBhL41UM9QPF600pzBg+61MaQP0YDOzIJC6TSAjKxQnM8H2eZZQvf5OaxUpXC+tjYTGj9YFY+jlw2lbIPfA=="
+  "resolved" "https://registry.npmjs.org/smartswap-v2-core/-/smartswap-v2-core-1.0.1.tgz"
+  "version" "1.0.1"
+
+"smartswap-v3-core@^1.0.0":
+  "integrity" "sha512-5bvLbd4bLryDGBBmEF2yKG+wY0uunlQNoU6/PAMqjDrBYFq9NSy/Px1owU+4qEnVJ4A6VMX4cW7sE9BOc7uK6Q=="
+  "resolved" "https://registry.npmjs.org/smartswap-v3-core/-/smartswap-v3-core-1.0.0.tgz"
+  "version" "1.0.0"
+
+"smartswap-v3-periphery@^1.0.1":
+  "integrity" "sha512-Rkdqb67dfVL8fwB2LceCjEn6Ag59nn0VSt2hTzroFoFCiZSSezjbELR7s6cS5gTy8/+1a9YB4bVPUIpYNs9BrQ=="
+  "resolved" "https://registry.npmjs.org/smartswap-v3-periphery/-/smartswap-v3-periphery-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@uniswap/lib" "^4.0.1-alpha"
+    "base64-sol" "1.0.1"
+    "smartswap-v2-core" "^1.0.1"
+    "smartswap-v3-core" "^1.0.0"
+
+"smartswap-v3-staker@^1.0.0":
+  "integrity" "sha512-ly6ju+6CA3gAKFoeNiYXDrHMVJVg7vvUX5RuBD0sHT33RsBisO2AmDIu4yQa3T4v75q0Jk6SCMneZ2oBwz+CQA=="
+  "resolved" "https://registry.npmjs.org/smartswap-v3-staker/-/smartswap-v3-staker-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
+    "smartswap-v3-core" "^1.0.0"
+    "smartswap-v3-periphery" "^1.0.1"
 
 "snapdragon-node@^2.0.1":
   "integrity" "sha512-O27l4xaMYt/RSQ5TR3vpWCAB5Kb/czIcqUFOM/C4fYcLnbZUc1PkjTAMjof2pBWaSTwOUd6qUHcFGVGj7aIwnw=="
