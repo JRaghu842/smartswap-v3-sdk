@@ -1734,18 +1734,6 @@
   "resolved" "https://registry.npmjs.org/@uniswap/lib/-/lib-4.0.1-alpha.tgz"
   "version" "4.0.1-alpha"
 
-"@uniswap/sdk-core@4.2.0":
-  "integrity" "sha512-yXAMLHZRYYuh6KpN2nOlLTYBjGiopmI9WUB4Z0tyNkW4ZZub54cUt22eibpGbZAhRAMxclox9IPIs6wwrM3soQ=="
-  "resolved" "https://registry.npmjs.org/@uniswap/sdk-core/-/sdk-core-4.2.0.tgz"
-  "version" "4.2.0"
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    "big.js" "^5.2.2"
-    "decimal.js-light" "^2.5.0"
-    "jsbi" "^3.1.4"
-    "tiny-invariant" "^1.1.0"
-    "toformat" "^2.0.0"
-
 "@uniswap/swap-router-contracts@1.2.1":
   "integrity" "sha512-aRNiZYIOpJ0uYxujPxvQsUEuNJWLC4bvnmU40TlNej1rGWHPyDL1PmnVzebu8UpW9EGeKlvDjsNGTyo53dih9Q=="
   "resolved" "https://registry.npmjs.org/@uniswap/swap-router-contracts/-/swap-router-contracts-1.2.1.tgz"
