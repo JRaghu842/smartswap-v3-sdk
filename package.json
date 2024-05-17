@@ -26,10 +26,10 @@
   "dependencies": {
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
-    "smartswap-router-contracts": "^1.0.1",
-    "smartswap-sdk-core": "^1.0.3",
-    "smartswap-v3-periphery": "^1.0.1",
-    "smartswap-v3-staker": "^1.0.0",
+    "smartswap-router-contracts": "^1.0.2",
+    "smartswap-sdk-core": "^1.0.4",
+    "smartswap-v3-periphery": "^1.0.2",
+    "smartswap-v3-staker": "^1.0.1",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
